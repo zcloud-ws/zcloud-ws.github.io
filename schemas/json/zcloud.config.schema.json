@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ghp.zcloud.ws/schemas/json/zcloud.config.schema.json",
+  "title": "ZCloud Service Config",
+  "description": "Configuration for Zcloud services - https://zcloud.ws",
+  "type": "object",
+  "properties": {
+    "accountId": {
+      "description": "Account ID from https://app.zcloud.ws",
+      "type": "string"
+    },
+    "appId": {
+      "description": "App ID from https://app.zcloud.ws",
+      "type": "string"
+    },
+    "envName": {
+      "description": "Environment name from https://app.zcloud.ws",
+      "type": "string"
+    },
+    "srcDir": {
+      "description": "Source directory to deploy",
+      "type": "string"
+    },
+    "publication": {
+      "description": "Service publication config.",
+      "type": "object",
+      "properties": {
+        "port": {
+          "description": "port number whare your service as running",
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "required": ["accountId", "appId", "envName", ""]
+}
