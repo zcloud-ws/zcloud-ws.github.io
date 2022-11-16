@@ -32,5 +32,5 @@
       }
     }
   },
-  "required": ["accountId", "appId", "envName", ""]
+  "required": ["accountId", "appId", "envName", "srcDir"]
 }
