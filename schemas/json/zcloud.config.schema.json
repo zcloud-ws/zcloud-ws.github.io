@@ -21,13 +21,20 @@
       "description": "Source directory to deploy",
       "type": "string"
     },
-    "publication": {
-      "description": "Service publication config.",
+    "buildCommand": {
+      "description": "Scripts for build project before create content.",
       "type": "object",
       "properties": {
-        "port": {
-          "description": "port number whare your service as running",
-          "type": "integer"
+        "script": {
+          "description": "Path for script with build instructions.",
+          "type": "string"
+        },
+        "args": {
+          "description": "Arguments to pass to the script.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       }
     }
