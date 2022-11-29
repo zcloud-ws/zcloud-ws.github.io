@@ -1,5 +1,7 @@
 ## https://gh.zcloud.ws
 
+# zcloud docs https://docs.zcloud.ws 
+
 # zcloud client utilitary
 
 - [Linux amd64](https://gh.zcloud.ws/zws/zws-linux-amd64)
