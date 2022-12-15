@@ -35,6 +35,10 @@
           "items": {
             "type": "string"
           }
+        },
+        "envVars": {
+          "description": "Enviroment variables to use in script context.",
+          "type": "object"
         }
       }
     }
