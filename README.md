@@ -62,3 +62,11 @@ Linux x86_64 example
 ```shell
 curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | DEST_DIR=/usr/local/bin ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sh -
 ```
+
+
+# zcloud-cli Environment variables
+
+- `ZCLOUD_USER_TOKEN`: Token to identify user application
+- `ZCLOUD_ENV_NAME`: Environment name to create or update
+- `ZCLOUD_SRC_DIR`: Directory usage as source code to send to deploy
+- `ZCLOUD_TEMP_DIR`: Directory usage to create temporary files. Default uses defined by OS.
