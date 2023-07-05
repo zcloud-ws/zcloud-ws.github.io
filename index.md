@@ -9,9 +9,9 @@
 
 # zcloud clientes
 
-- [Linux amd64](https://gh.zcloud.ws/zws/zws-linux-amd64)
-- [Linux arm64](https://gh.zcloud.ws/zws/zws-linux-arm64)
-- [Windows amd64](https://gh.zcloud.ws/zws/zws-win-amd64.exe)
-- [Windows arm64](https://gh.zcloud.ws/zws/zws-win-arm64.exe)
-- [Mac amd64](https://gh.zcloud.ws/zws/zws-darwin-amd64)
-- [Mac arm64](https://gh.zcloud.ws/zws/zws-darwin-arm64)
+- [Linux amd64](https://gh.zcloud.ws/zcloud/zcloud-linux-amd64)
+- [Linux arm64](https://gh.zcloud.ws/zcloud/zcloud-linux-arm64)
+- [Windows amd64](https://gh.zcloud.ws/zcloud/zcloud-win-amd64.exe)
+- [Windows arm64](https://gh.zcloud.ws/zcloud/zcloud-win-arm64.exe)
+- [Mac amd64](https://gh.zcloud.ws/zcloud/zcloud-darwin-amd64)
+- [Mac arm64](https://gh.zcloud.ws/zcloud/zcloud-darwin-arm64)
