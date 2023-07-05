@@ -18,5 +18,5 @@ echo "${SAVED_FILE}"
 if [ ! -d "${DEST_DIR}" ]; then
   mkdir -p "${DEST_DIR}"
 fi
-curl "${DOWNLOAD_LINK}" --output "${SAVED_FILE}"
+curl -s "${DOWNLOAD_LINK}" --output "${SAVED_FILE}"
 chmod +x "${SAVED_FILE}"

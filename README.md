@@ -14,7 +14,7 @@
 ### Using a script for download (requires curl installed)
 
 ```shell
-curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sh -
+curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sh -
 ```
 
 ### Valid environment variables values for script
@@ -28,31 +28,31 @@ curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=linux ZCLOUD_ARC
 ### Linux
 #### x86_64
 ```shell
-curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sh -
+curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sh -
 ```
 #### arm64
 ```shell
-curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=linux ZCLOUD_ARCH=arm64 sh -
+curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=linux ZCLOUD_ARCH=arm64 sh -
 ```
 
 ### MacOS
 #### x86_64
 ```shell
-curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=darwin ZCLOUD_ARCH=amd64 sh -
+curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=darwin ZCLOUD_ARCH=amd64 sh -
 ```
 #### arm64, M1, M2
 ```shell
-curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=darwin ZCLOUD_ARCH=arm64 sh -
+curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=darwin ZCLOUD_ARCH=arm64 sh -
 ```
 
 ### Windows
 #### x86_64
 ```shell
-curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=win ZCLOUD_ARCH=amd64 sh -
+curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=win ZCLOUD_ARCH=amd64 sh -
 ```
 #### arm64
 ```shell
-curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=win ZCLOUD_ARCH=arm64 sh -
+curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=win ZCLOUD_ARCH=arm64 sh -
 ```
 
 ## Install for all user (require ROOT)
@@ -60,5 +60,5 @@ curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=win ZCLOUD_ARCH=
 Linux x86_64 example
 
 ```shell
-curl https://gh.zcloud.ws/scripts/zcloud-install.sh | DEST_DIR=/usr/local/bin ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sh -
+curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | DEST_DIR=/usr/local/bin ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sh -
 ```
