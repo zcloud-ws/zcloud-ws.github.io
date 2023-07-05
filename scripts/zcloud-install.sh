@@ -7,7 +7,7 @@ if [ "${ZCLOUD_OS}" = "win" ]; then
   ZCLOUD_EXT=".exe"
 fi
 
-export FILE_NAME="ZCLOUD-${ZCLOUD_OS}-${ZCLOUD_ARCH}${ZCLOUD_EXT}"
+export FILE_NAME="zcloud-${ZCLOUD_OS}-${ZCLOUD_ARCH}${ZCLOUD_EXT}"
 
 export DOWNLOAD_LINK="https://gh.zcloud.ws/zcloud/${FILE_NAME}"
 export DEST_DIR=${DEST_DIR:-"${PWD}/bin"}
