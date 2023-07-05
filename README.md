@@ -1,8 +1,15 @@
-## https://gh.zcloud.ws
+# zCloud Client
 
-# zcloud docs https://docs.zcloud.ws 
+## Deploy
 
-# zcloud client utilitary
+- Install (see options below)
+- Run
+
+```
+/bin/./zcloud deploy --user-token your-token --env your-env
+```
+
+## Installation
 
 - [Linux amd64](https://gh.zcloud.ws/zcloud/zcloud-linux-amd64)
 - [Linux arm64](https://gh.zcloud.ws/zcloud/zcloud-linux-arm64)
@@ -62,7 +69,6 @@ Linux x86_64 example
 ```shell
 curl -s https://gh.zcloud.ws/scripts/zcloud-install.sh | DEST_DIR=/usr/local/bin ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sh -
 ```
-
 
 # zcloud-cli Environment variables
 
