@@ -55,10 +55,10 @@ curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=win ZCLOUD_ARCH=
 curl https://gh.zcloud.ws/scripts/zcloud-install.sh | ZCLOUD_OS=win ZCLOUD_ARCH=arm64 sh -
 ```
 
-## Install for all user (require ROOT/sudo)
+## Install for all user (require ROOT)
 
 Linux x86_64 example
 
 ```shell
-curl https://gh.zcloud.ws/scripts/zcloud-install.sh | DEST_DIR=/usr/local/bin ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sudo sh -
+curl https://gh.zcloud.ws/scripts/zcloud-install.sh | DEST_DIR=/usr/local/bin ZCLOUD_OS=linux ZCLOUD_ARCH=amd64 sh -
 ```

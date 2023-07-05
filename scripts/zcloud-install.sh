@@ -9,7 +9,7 @@ fi
 
 export FILE_NAME="zcloud-${ZCLOUD_OS}-${ZCLOUD_ARCH}${ZCLOUD_EXT}"
 
-export DOWNLOAD_LINK="https://gh.zcloud.ws/zcloud/${FILE_NAME}"
+export DOWNLOAD_LINK="https://gh.zcloud.ws/zcloud-cli/${FILE_NAME}"
 export DEST_DIR=${DEST_DIR:-"${PWD}/bin"}
 export SAVED_FILE="${DEST_DIR}/zcloud${ZCLOUD_EXT}"
 
