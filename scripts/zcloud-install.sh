@@ -2,8 +2,13 @@
 
 export ZCLOUD_OS=${ZCLOUD_OS}
 export ZCLOUD_ARCH=${ZCLOUD_ARCH}
-export ZCLOUD_DEST_DIR=${ZCLOUD_DEST_DIR:-"${HOME}/bin"}
+export ZCLOUD_DEST_DIR=${ZCLOUD_DEST_DIR}
 export ZCLOUD_EXT=""
+
+if [ "$ZCLOUD_DEST_DIR" != "" ]; then
+  ZCLOUD_DEST_DIR="${ZCLOUD_DEST_DIR}/"
+  ZCLOUD_DEST_DIR="$(echo "$ZCLOUD_DEST_DIR" | sed 's|//|/|g')"
+fi
 
 # Detect OS
 if [ "${ZCLOUD_OS}" = "" ]; then
@@ -58,7 +63,7 @@ export FILE_NAME="zcloud-${ZCLOUD_OS}-${ZCLOUD_ARCH}${ZCLOUD_EXT}"
 
 export DOWNLOAD_LINK="https://gh.zcloud.ws/zcloud-cli/${FILE_NAME}"
 
-export SAVED_FILE="${ZCLOUD_DEST_DIR}/zcloud${ZCLOUD_EXT}"
+export SAVED_FILE="${ZCLOUD_DEST_DIR}zcloud${ZCLOUD_EXT}"
 
 echo Download client from "$DOWNLOAD_LINK"
 
