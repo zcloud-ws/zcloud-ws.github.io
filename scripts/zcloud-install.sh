@@ -67,7 +67,7 @@ export SAVED_FILE="${ZCLOUD_DEST_DIR}zcloud${ZCLOUD_EXT}"
 
 echo Download client from "$DOWNLOAD_LINK"
 
-if [ ! -d "${ZCLOUD_DEST_DIR}" ]; then
+if [ "${ZCLOUD_DEST_DIR}" != "" ] && [ ! -d "${ZCLOUD_DEST_DIR}" ]; then
   mkdir -p "${ZCLOUD_DEST_DIR}"
 fi
 
