@@ -58,12 +58,12 @@ export FILE_NAME="zcloud-${ZCLOUD_OS}-${ZCLOUD_ARCH}${ZCLOUD_EXT}"
 
 export DOWNLOAD_LINK="https://gh.zcloud.ws/zcloud-cli/${FILE_NAME}"
 
-export SAVED_FILE="${DEST_DIR}/zcloud${ZCLOUD_EXT}"
+export SAVED_FILE="${ZCLOUD_DEST_DIR}/zcloud${ZCLOUD_EXT}"
 
 echo Download client from "$DOWNLOAD_LINK"
 
-if [ ! -d "${DEST_DIR}" ]; then
-  mkdir -p "${DEST_DIR}"
+if [ ! -d "${ZCLOUD_DEST_DIR}" ]; then
+  mkdir -p "${ZCLOUD_DEST_DIR}"
 fi
 
 curl -s "${DOWNLOAD_LINK}" --output "${SAVED_FILE}"
