@@ -11,14 +11,14 @@
 
 ## Installation
 
-- [Linux amd64](https://gh.zcloud.ws/zcloud/zcloud-linux-amd64)
-- [Linux arm64](https://gh.zcloud.ws/zcloud/zcloud-linux-arm64)
-- [Linux Alpine amd64](https://gh.zcloud.ws/zcloud/zcloud-alpine-amd64)
-- [Linux Alpine arm64](https://gh.zcloud.ws/zcloud/zcloud-alpine-arm64)
-- [Windows amd64](https://gh.zcloud.ws/zcloud/zcloud-win-amd64.exe)
-- [Windows arm64](https://gh.zcloud.ws/zcloud/zcloud-win-arm64.exe)
-- [Mac amd64](https://gh.zcloud.ws/zcloud/zcloud-darwin-amd64)
-- [Mac arm64](https://gh.zcloud.ws/zcloud/zcloud-darwin-arm64)
+- [Linux amd64](https://gh.zcloud.ws/zcloud-cli/zcloud-linux-amd64)
+- [Linux arm64](https://gh.zcloud.ws/zcloud-cli/zcloud-linux-arm64)
+- [Linux Alpine amd64](https://gh.zcloud.ws/zcloud-cli/zcloud-alpine-amd64)
+- [Linux Alpine arm64](https://gh.zcloud.ws/zcloud-cli/zcloud-alpine-arm64)
+- [Windows amd64](https://gh.zcloud.ws/zclou-clid/zcloud-win-amd64.exe)
+- [Windows arm64](https://gh.zcloud.ws/zcloud-cli/zcloud-win-arm64.exe)
+- [Mac amd64](https://gh.zcloud.ws/zcloud-cli/zcloud-darwin-amd64)
+- [Mac arm64](https://gh.zcloud.ws/zcloud-cli/zcloud-darwin-arm64)
 
 ### Using a script for download (requires curl installed)
 
